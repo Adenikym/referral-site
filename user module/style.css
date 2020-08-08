@@ -367,3 +367,24 @@ font-weight: bold;
 font-size: 1.1rem;
 
    }
+/*media queries*/
+
+@media only screen and (max-width:400px) {
+    /*courses page*/
+
+    .headings{
+        display: block;
+    }
+.courses{
+    display:block;
+}
+
+.business, .finance, .culinary, .coding{
+    width: 60%;
+}
+
+.courses .btn-b{
+    bottom: 400px;
+}
+
+}
