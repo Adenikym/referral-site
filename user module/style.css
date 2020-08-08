@@ -289,12 +289,9 @@ border-radius: 80px;
        margin-bottom: 30px;
    }
 
-   .author .circle{
-       border: 2px solid #A5E5E2;
-       width: 30%;
-       height: 60px;
-       border-radius: 50px;
-       font-size: 1.5rem;
+   .circle{
+       font-size: 1.2rem;
+       margin-top:8px ;
    }
 
    .courses h3{
@@ -367,7 +364,152 @@ font-weight: bold;
 font-size: 1.1rem;
 
    }
+
+ 
 /*media queries*/
+
+/* index queries begin*/
+
+@media only screen and (max-width:920px) {
+
+    .welcome{
+width: 45%;
+    }
+
+    .vector img{
+        width: 65%;
+        margin-right: 2%;
+        margin-left: 9%;
+    }
+
+    
+}
+
+@media only screen and (max-width:670px){
+    .btn1{
+        margin-bottom: 15px ;
+    }
+
+    .top-nav{
+        
+        width: 70%;
+    }
+    
+    .nav-items{
+       
+        height: 20px;
+        text-align: center;
+        padding: 1px 2px;
+        
+        border-radius: 7px;
+        font-size: 0.8rem;
+    }
+    
+    .top-nav li{
+    margin-right: 8%;
+    width: 25%;
+    margin-top: 10px;
+    
+    }
+}
+
+@media only screen and (max-width:400px){
+    .features{
+        display: block;
+        text-align: center;
+    }
+
+    .discount,.great, .opportunities {
+        width: 90%;
+        margin-left: 3%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+    }
+ 
+    
+}
+
+
+
+
+
+
+/* index queries end*/
+
+@media only screen and (max-width:980px) {
+
+    .courses{
+        flex-wrap: wrap;
+    }
+   
+    .business, .finance, .culinary, .coding{
+        width: 35%;
+        margin-bottom: 20px;
+    } 
+
+    .courses .btn-b{
+        bottom: 220px;
+        left: 75px;
+        width:15%;
+    }
+    
+    .courses .btn-f{
+        bottom: -280px;
+        left: 550px;
+        width:15%;
+    }
+    
+    .courses .btn-co{
+        left: 550px;
+        bottom: 220px;
+        width: 15%;
+    }
+    
+    .courses .btn-cu{
+        left: 75px;
+        bottom: -280px;
+        width: 15%;
+    }
+
+}
+   
+    @media only screen and (max-width:578px){
+        .business, .finance, .culinary, .coding{
+            width: 50%;
+            margin-bottom: 20px;
+        }
+       
+
+        .courses .btn-b{
+            bottom: 220px;
+            left: 15px;
+            width:15%;
+        }
+        
+        .courses .btn-f{
+            bottom: -295px;
+            left: 285px;
+            width:15%;
+        }
+        
+        .courses .btn-co{
+            left: 280px;
+            bottom: 220px;
+            width: 15%;
+        }
+        
+        .courses .btn-cu{
+            left: 5px;
+            bottom: -300px;
+            width: 15%;
+        }
+    
+
+    
+}
+
+
+
 
 @media only screen and (max-width:400px) {
     /*courses page*/
@@ -380,11 +522,38 @@ font-size: 1.1rem;
 }
 
 .business, .finance, .culinary, .coding{
-    width: 60%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
 }
 
 .courses .btn-b{
-    bottom: 400px;
+    bottom: 375px;
+    left: 38px;
+    width:28%;
 }
 
+.courses .btn-f{
+    bottom: -1140px;
+    left: 38px;
+    width:28%;
 }
+
+.courses .btn-co{
+    left: 38px;
+    bottom: -130px;
+    width:28%;
+}
+
+.courses .btn-cu{
+    left: 38px;
+    bottom: -625px;
+    width:28%;
+}
+
+.searchbox{width:60%;}
+
+
+}
+
