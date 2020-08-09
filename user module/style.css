@@ -429,7 +429,7 @@ header h1{
     border: 2px solid black;
 }
 
-.referral{
+.rf{
     border: 2px solid black;
 }
 
@@ -452,10 +452,74 @@ header h1{
 
 
    .steps{ 
-    display:block;
-  width:70%;
-    margin-left:15%;
-    margin-right:50%;}
+   display: flex;
+   justify-content: space-around;
+   margin-top: 40px;
+  
+  }
+
+  .steps .select, .unlock,.ref{
+      width: 24%;
+      text-align: center;
+     
+     
+  }
+
+  .steps p{
+      color:#44B2A9;
+      font-size: 1.2rem;
+  }
+
+  .select{
+    width: 20%;
+    
+  } 
+
+  .select img{
+    width:   60%;
+    border: 1px solid black;
+    border-radius: 90px;
+    margin-bottom: 10px;
+  }
+  
+  .unlock {
+      width: 20%;
+    
+  }
+
+  .unlock img{
+    width:   60%;
+    border: 1px solid black;
+    border-radius: 80px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .ref {
+      width: 20%;
+  }
+
+  .ref img{
+    width:   60%;
+    border: 1px solid black;
+    border-radius: 80px;
+    margin-bottom: 10px;
+  }
+
+  .ref-head{
+      text-align: center;
+      color:#1C2F36;
+      margin-bottom: 25px;
+      margin-top: 10px;
+  }
+
+  .x-way{
+      text-align: center;
+      font-size: 1.5rem;
+      color: #A5E5E2;
+  }
+
+
 
 
 .one, .two, .three, .four{
