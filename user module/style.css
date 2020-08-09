@@ -819,3 +819,29 @@ margin-top: 150px;
 
 }
 
+/* queries for specific course */
+
+@media only screen and (max-width:760px) {
+    .chapter{
+       height: 90px;
+       font-size: 0.8rem;
+    }
+
+    .chapter button{
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .course-title{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media only screen and (max-width:400px) {
+    .chapter{
+        height: 100px;
+        font-size: 0.6rem;
+    }
+}
+
