@@ -448,6 +448,41 @@ header h1{
 
    /*unlock page ends */
 
+   /* referral page starts here*/
+
+
+   .steps{ 
+    display:block;
+  width:70%;
+    margin-left:15%;
+    margin-right:50%;}
+
+
+.one, .two, .three, .four{
+width: 50%;
+height:80px;
+  
+  margin-left: 25%;
+  margin-right:25%;
+
+border:
+1px solid black;
+
+border-radius: 30px;
+
+ }
+
+.v-line{ 
+width: 1px;
+height: 50px;
+background-color: black;
+  margin-left:48%;
+}
+
+
+
+
+ /* referral page ends here*/
  
 /*media queries*/
 
