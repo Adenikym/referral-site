@@ -365,7 +365,7 @@ font-size: 1.1rem;
 
    }
 
-   /*unlock page begins*/
+   /*business page begins*/
 
 .chapters{
     background-color: black;
@@ -406,7 +406,47 @@ font-size: 1.1rem;
     color: #AFAEAE;
 }
 
-   /*unlock page ends*/
+   /*business page ends*/
+
+   /*unlock page begins */
+
+.methods{
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+.pay{
+    display: block;
+    width: 40%;
+    border: 2px solid black;
+}
+
+.referral{
+    border: 2px solid black;
+}
+
+.pay input{
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.pay .button{
+    width: 30%;
+}
+
+
+
+
+
+   /*unlock page ends */
 
  
 /*media queries*/
