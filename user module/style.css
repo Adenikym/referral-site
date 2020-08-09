@@ -690,6 +690,40 @@ width: 45%;
         width: 15%;
     }
 
+
+    @media only screen and (max-width:680px) {
+        .top-nav{
+            flex-direction: column;
+            margin-left: 25%;
+            border: 1px solid black;
+            width: 40%;
+            background-color: #1C2F36;
+
+           
+           
+        }
+
+       
+        .nav-items{
+            border: none;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .top-nav li{
+            width: 90%;
+        }
+
+        .top-nav li a{
+            color:#44B2A9;
+        }
+
+        .vector img{
+margin-top: 100px;
+
+        }
+    }
+
 }
    
     @media only screen and (max-width:578px){
