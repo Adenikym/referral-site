@@ -694,13 +694,22 @@ width: 45%;
     @media only screen and (max-width:680px) {
         .top-nav{
             flex-direction: column;
-            margin-left: 25%;
+            margin-left: 20%;
             border: 1px solid black;
             width: 40%;
             background-color: #1C2F36;
+margin-top: 15px;
+           
+           display: none;
+        }
 
-           
-           
+        .fa-bars{
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 3%;
+            font-size: 1.2rem;
+            margin-top: 5px;
+            color: #A5E5E2;
         }
 
        
@@ -719,7 +728,7 @@ width: 45%;
         }
 
         .vector img{
-margin-top: 100px;
+margin-top: 150px;
 
         }
     }
