@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Referral</title>
 </head>
 <body>
    <header>
-       <h1>To access the course please select one of the two methods</h1>
+       <h1 class="access">To access this course please <br> select one of these two methods</h1>
    </header> 
 
    <main>
+
+    <div class="types">
+       <p id="gain" >  1. <a  href="#"> Pay to gain lifetime for the course/chapter.</a> </p>
+<br>
+
+       <p id="unique">  2. <a href="#"> Generate a unique referral link and invite friends to access course for a limited period.</a></p>
+
+
+    </div>
+
+
        <div class="methods">
 <form class="pay">
 <h2>Select Payment Options</h2>
@@ -44,5 +56,20 @@
    </main>
 
    <footer></footer>
+   <script >
+       document.getElementById("gain").addEventListener("click" , function () {
+    document.querySelector(".pay").style.display="block"
+    document.getElementById("unique").style.display="none"
+})
+document.getElementById("unique").addEventListener("click", function () {
+    document.querySelector(".rf").style.display="block"
+    document.getElementById("gain").style.display="none"
+})
+
+
+
+
+
+   </script>
 </body>
 </html>

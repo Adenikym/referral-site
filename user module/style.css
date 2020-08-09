@@ -88,7 +88,7 @@ margin-top: 10px;
 
 }
 
-.pay{
+.payed{
     font-size: 1.2rem;
     color: #1C2F36;
     margin-bottom: 20px;
@@ -413,6 +413,7 @@ font-size: 1.1rem;
 .methods{
     display: flex;
     justify-content: space-around;
+    
 }
 
 header h1{
@@ -426,20 +427,56 @@ header h1{
 .pay{
     display: block;
     width: 40%;
-    border: 2px solid black;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:  #fff;
+    color:#FFf;
+    box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.04) ,2px 2px 2px 2px rgba(0, 0, 0, 0.04);
+    display: none;
 }
 
 .rf{
-    border: 2px solid black;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #fff;
+    background-color:  black;
+    box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.04) ,2px 2px 2px 2px rgba(0, 0, 0, 0.04);
+    display: none;
 }
 
 .pay input{
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     width: 60%;
+    margin-left: 23%;
+    margin-right: 17%;
 }
 
 .pay .button{
+    font-size: 1.1rem;
     width: 30%;
+    margin-left: 35%;
+    background-color: #0F2FB8;
+    color: white;
+    border: 1px solid #0F2FB8;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+.pay h2{
+    color:#0F2FB8 ;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.access{
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+
+.types{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.4rem;
 }
 
 
