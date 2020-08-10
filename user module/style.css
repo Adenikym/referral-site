@@ -688,7 +688,7 @@ width: 45%;
         left: 75px;
         bottom: -280px;
         width: 15%;
-    }
+    } 
 
 
     @media only screen and (max-width:680px) {
@@ -842,6 +842,44 @@ margin-top: 150px;
     .chapter{
         height: 100px;
         font-size: 0.6rem;
+    }
+}
+
+/* invite page queries*/
+@media only screen and (max-width:980px) {
+
+.steps{
+    display: block;
+}
+
+.unlock,  .ref{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+}
+
+.select{
+    width: 40% !important;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+}
+
+}
+
+
+@media only screen and (max-width:400px) {
+    .x-way{
+        font-size: 1.1rem;
+    }
+
+    .ref-head{
+       font-size: 1.5rem;
+    }
+
+    .steps p{
+        width: 100%;
     }
 }
 
