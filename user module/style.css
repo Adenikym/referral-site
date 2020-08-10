@@ -955,6 +955,10 @@ margin-top: 150px;
     }
 }
 
+@media only screen and (max-width:970px){
+   .new-user{ width: 55%;}
+}
+
 @media only screen and (max-width:580px) {
     .content{
         width: 90%;
@@ -964,6 +968,8 @@ margin-top: 150px;
         margin-top: 10px;
         
     }
+
+    .new-user{ width: 75%;}
 }
 
 @media only screen and (max-width:410px){
@@ -975,5 +981,7 @@ margin-top: 150px;
         margin-top: 20px;
         margin-left: 30%;
     }
+
+    .new-user{ width: 90%;}
 }
 
