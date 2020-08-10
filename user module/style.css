@@ -883,3 +883,23 @@ margin-top: 150px;
     }
 }
 
+/*unlock queries*/
+
+@media only screen and (max-width:580px) {
+
+.access{
+    font-size: 1.5rem;
+}
+
+.pay{
+    width: 80%;
+}
+
+.rf{
+    width: 90%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+}
+
