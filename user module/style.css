@@ -903,3 +903,33 @@ margin-top: 150px;
 
 }
 
+/* form queries*/
+
+@media only screen and (max-width:970px) {
+    .content{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .content{
+        width: 90%;
+    }
+
+    .sub{
+        margin-top: 10px;
+        
+    }
+}
+
+@media only screen and (max-width:410px){
+    .content{
+        width: 95%;
+    }
+
+    .sub{
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+}
+
