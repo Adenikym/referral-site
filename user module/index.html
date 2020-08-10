@@ -38,7 +38,7 @@
 
        <p class="payed">The more your sucessful referrals the less you pay.</p>
 
-      <a href="#"> <button class="btn1">Get Started</button></a>
+      <a href="#"> <button id="get" class="btn1">Get Started</button></a>
       <a href="invite.html"> <button class="btn2">Learn More</button></a>
     </div>
 
@@ -125,7 +125,7 @@
 <br>
 <input placeholder="Username" type="text">
 <br>
-<input type="submit" value="Sign Up">
+<input id="newsub" type="submit" value="Sign Up">
         
     </form>
 </div>
@@ -136,6 +136,14 @@
    <script>
 document.querySelector(".fa-bars").addEventListener("click" , function () {
     document.querySelector(".top-nav").style.display="block"
+})
+
+document.getElementById("get").addEventListener("click", function () {
+    document.querySelector(".ng-modal").style.display="flex"
+})
+
+document.getElementById("newsub").addEventListener("submit",function () {
+    document.querySelector(".ng-modal").style.display="none"
 })
 
    </script>

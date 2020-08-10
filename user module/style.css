@@ -153,6 +153,7 @@ margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;   
+    display: none;
    }
 
    .content{
@@ -170,7 +171,29 @@ margin-top: 10px;
     display: block;
    }
 
-   .new
+   .new-user h2 {
+       text-align: center;
+       margin-top: 5px;
+       color: #44B2A9;
+   }
+
+   .new-user input{
+       width: 60%;
+       margin-left: 20%;
+       margin-right: 20%;
+       margin-bottom: 15px;
+       height: 30px;
+       border: 2px solid #1C2F36;
+   }
+
+   #newsub{
+       width: 30%;
+       margin-left: 35%;
+       margin-right: 35%;
+       color: white;
+       font-size: 1rem;
+       background-color: #1C2F36 ;
+   }
 
    .login{
        margin-left: 15%;
