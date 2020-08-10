@@ -19,11 +19,13 @@
 
          
            <ul class="top-nav">
+               <p id="close-x">X</p>
                <li class="nav-items"> <a href="index.html"> Home</a></li>
                <li class="nav-items">How To</li>
-               <li class="nav-items"> <a href="./courses.html"> Courses</a></li>
+               <li class="nav-items"> <a href="courses.html"> Courses</a></li>
                <li class="nav-items"> <a href="invite.html"> Referral</a></li>
               <li id="bt"> <button class="btn3">Sign in</button></li>
+
               
            </ul>
        </nav>
@@ -136,6 +138,10 @@
    <script>
 document.querySelector(".fa-bars").addEventListener("click" , function () {
     document.querySelector(".top-nav").style.display="block"
+})
+
+document.getElementById("close-x").addEventListener("click",function () {
+    document.querySelector(".top-nav").style.display="none"
 })
 
 document.getElementById("get").addEventListener("click", function () {

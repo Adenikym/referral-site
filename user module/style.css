@@ -655,7 +655,7 @@ width: 45%;
 
     .top-nav{
         
-        width: 70%;
+        width: 90%;
     }
     
     .nav-items{
@@ -668,7 +668,7 @@ width: 45%;
         font-size: 0.8rem;
     }
     
-    .top-nav li{
+    .top-nav li a{
     margin-right: 8%;
     width: 25%;
     margin-top: 10px;
